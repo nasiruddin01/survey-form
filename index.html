@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Free Code Camp Survey Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="main">
+  <div id="img-div">
+    <img id="image" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWptHL?ver=3e39&q=90&m=2&h=768&w=1024&b=%23FFFFFFFF&aim=true" alt="">
+    <figcaption id="img-caption">
+      <h1 id="title">FreeCodeCamp Survey Form</h1>
+
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </div>
+  </div>
+  </figcaption>
+  <p id="link">Please <a id="tribute-link" href="#" target="_blank">Click Here. </p>
+  <div id="tribute-info">
+
+    <form id="survey-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="dropdown">Age (optional)</label>
+        <input type="number" id="age" name="age">
+      </div>
+
+      <div class="form-group">
+        <label id="checkbox">Gender:
+          <label for="gender">
+            <input type="radio" id="male" name="gender" value="male"> Male
+          </label>
+          <label for="gender">
+            <input type="radio" id="female" name="gender" value="female"> Female
+          </label>
+          <label for="gender">
+            <input type="radio" id="other" name="gender" value="other"> Other
+          </label>
+        </label>
+      </div>
+      <label for="preferences">Do you have any known medical issues? <br>(select all that apply):</label>
+      <div class="form-group" id="checkbox">
+        <div class="label">
+          <label class="checkbox"><input name="prefer" value="1" type="checkbox" class="userRatings">Asthma</input></label>
+          <label class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Parkinsons Disease</input></label>
+          <label class="checkbox"><input name="prefer" value="3" type="checkbox" class="userRatings">Heart Failure</input></label>
+          <label class="checkbox"><input name="prefer" value="4" type="checkbox" class="userRatings">HIV</input></label>
+          <label class="checkbox"><input name="prefer" value="5" type="checkbox" class="userRatings">Other</input></label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="textarea">Message</label>
+        <textarea name="name" rows="4" cols="48"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="button" name="button">Submit</button>
+      </div>
+  </div>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+body {
+  font-family: Raleway, sans-serif;
+  background-color: #344a72;
+  color: #fff;
+  line-height: 1.8;
+}
+
+#image {
+  margin: auto;
+  max-width: 800px;
+  display: block;
+  padding-top: 1rem;
+}
+
+#img-caption {
+  display: block;
+  text-align: center;
+}
+
+#tribute-info {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#survey-form {
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  /* text-align: center; */
+  background: #344a72;
+  background: #fff;
+  padding: 15px 25px;
+  color: #333;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #49c1a2;
+}
+
+#link {
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 10px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.form-group labels {
+  display: block;
+  color: #666;
+  text-decoration: none;
+}
+
+.form-group input {
+  width: 97%;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.form-group textarea {
+  width: 97%;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+#checkbox label {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.label {}
+
+#survey-form button {
+  display: block;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #49c1a2;
+  color: #fff;
+  cursor: pointer;
+}
+
+#survey-form button:hover {
+  background-color: #37a08e;
+}
+
+@media(max-width: 800px) {
+  #image {
+    margin: auto;
+    width: 100%;
+    display: block;
+    padding-top: 1rem;
+  }
+}
+
+@media(max-width: 500px) {
+  #image {
+    margin: auto;
+    width: 100%;
+    display: block;
+    padding-top: 1rem;
+  }
+}
